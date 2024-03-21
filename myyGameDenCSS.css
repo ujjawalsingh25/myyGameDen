@@ -1328,15 +1328,13 @@ textarea.input-field {
 
 /* -------------------- Responsive for larger than 150px screen -------------------- */
 /* *************************************************************************** */
-
+/*
 @media (min-width: 150px) {
 
   .header .container {
     padding: 20px;
-    /* border: 2px solid blue; */
   }
   #logoImg{
-    /* border: 2px solid blue; */
     width: 400px;
     height: 120px;
     
@@ -1347,15 +1345,12 @@ textarea.input-field {
     
   }
   #visitBtn{
-    /* border: 2px solid blue; */
     font-size: var(--fontSize-headline-2);
     text-align: center;
     width: 200px;
     height: 60px;
   }
   #aboutLargeImg{
-    /* border: 2px solid blue; */
-    /* margin-left: 60px; */
     height: 500px;
     width: auto;
   }
@@ -1368,9 +1363,8 @@ textarea.input-field {
     font-size: 30px;
   }
   #tournamentGridList{
-    /* border: 2px solid blue; */
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width in 1 frame*/
+    grid-template-columns: repeat(3, 1fr); 
     gap: 20px; 
   }
   #participateBtn{ 
@@ -1378,7 +1372,7 @@ textarea.input-field {
     width: 550px;
   }
 
-}
+}*/
 /* *************************************************************************** */
 
 @media (min-width: 420px) {
